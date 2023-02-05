@@ -1,3 +1,3 @@
 # RockPaperScissors
 
-Basic Rock Paper Scissors game using the console and functions.
+Basic Rock Paper Scissors game using the DOM and JS.

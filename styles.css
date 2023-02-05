@@ -1,0 +1,89 @@
+* {
+  margin: 0px;
+  border: 0px;
+}
+
+body {
+  background-color: #1f293f;
+  color: #d1d5db;
+}
+header {
+  background-color: rgb(17 24 39);
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.restart {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+.restart button {
+  padding: 15px 30px;
+  border-radius: 0.4rem;
+  color: #d1d5db;
+  background-color: red;
+  font-size: 1rem;
+}
+
+.restart button:hover {
+  background-color: green;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.buttons button {
+  background-color: rgb(17, 24, 39);
+  color: white;
+  padding: 30px 40px;
+  margin: 50px 40px;
+  border-radius: 0.4rem;
+  font-size: 65px;
+}
+.buttons button:hover {
+  background-color: rgba(17, 24, 38, 0.3);
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin: 50px;
+}
+
+.scores {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 30px;
+  margin: 0px 400px;
+}
+.scores div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.playerCont,
+.computerCont {
+  width: 100px;
+}
+
+.match {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0px 400px;
+  font-size: 75px;
+}
+
+.match div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}

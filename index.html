@@ -4,9 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/cbfa33e868.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Rock Paper Scissors</title>
   </head>
+  <header>
+    <h1>Odin Rock Papper Scissors Game!</h1>
+    <div class="restart">
+      <button class="restartButton">Restart Game</button>
+    </div>
+  </header>
   <body>
+    <div class="result">Choose your weapon</div>
+    <div class="match">
+      <div class="matchPlayer"><i class="fa-solid fa-question"></i></div>
+      <div class="matchComputer"><i class="fa-solid fa-question"></i></div>
+    </div>
+    <div class="scores">
+      <div class="playerCont">
+        <label for="player1">Player:&nbsp;</label>
+        <span id="player1">0</span>
+      </div>
+      <div class="computerCont">
+        <label for="computer">Computer:&nbsp;</label>
+        <span id="computer">0</span>
+      </div>
+    </div>
+    <div class="buttons">
+      <button class="rock">
+        <i class="fa-solid fa-hand-back-fist"></i>
+      </button>
+      <button class="paper"><i class="fa-solid fa-hand"></i></button>
+      <button class="scissors">
+        <i class="fa-solid fa-hand-scissors"></i>
+      </button>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
